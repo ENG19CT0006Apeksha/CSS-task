@@ -21,6 +21,7 @@ width: 1140px;
 
   
 }
+
 a{
   text-decoration: underline;
   text-decoration-color: goldenrod; 
@@ -183,9 +184,19 @@ input[type=submit]{
 
 } */
 .Outer {
-  margin-left: 16%;
-  width:15%;
+  flex:30%;
+  /* width:15%; */
   color:#003E6B;
+}
+#container{
+  flex:70%;
+  
+}
+.outer-container{
+  margin-left:16%;
+  display: flex;
+  margin-right:16%;
+  padding:4px;
 }
 #refine
 {
@@ -220,7 +231,36 @@ input[type=submit]{
 .plus,.clear{
   text-align:right;
 } */
+#item1{
+  margin:7px;
+  padding:4px;
+  display:inline;
+}
+#item1 div span{
+  float:right;
+  margin-right:3px;
+}
+#item1 div{
+  display:inline;
+  padding:5px;
+}
+#parag{
+  margin:7px;
+  padding:4px;
+}
 
+#item1inp{
+  width:30px;
+}
+#cart{
+  padding:10px;
+  width:55%;
+  border:1 px solid black;
+  border-radius: 2px;
+}
+.item3 img{
+float: left;
+}
         </style>
     </head>
     <body style="margin:0px;">
@@ -281,6 +321,7 @@ input[type=submit]{
       </table> -->
     
        </div>
+       <div class="outer-container">
        <div class="Outer">
         <div class="ref">
           <div id="refine">Refine by</div><div id="clear">Clear all</div></div>
@@ -325,8 +366,22 @@ input[type=submit]{
              <div class="subject">
                Language[1]
              </div>
+             </div>
           <div class="plus">+</div> </div>
-           </div>
+          <div id="container">
+            <span id="parag">Showing 9,821 results</span>
+            <div id="item1"><div><span><select><option>Relevance</option></select></span>
+             <span>Sort by </span> <span>per page</span><span ><input type="number" id="item1inp" value="24" min="24" max="96" step="24"></span><span>Show</span></div>
+             <div id="cart"><div class="item3">
+              <img src="input.png" alt="" ><h3>Micropipetting solutions</h3><br>
+            labxchange<br>This simulation allows user to parctice using a micropipette
+          </div>
+        </div>
+      </div>
+      </div>
+    
+
+           
            
         <!-- <div class="subject">
           Subject <div class="plus">+</div>
@@ -335,6 +390,7 @@ input[type=submit]{
         <div class="top-right">
           <a href="#" Class="active">English   |</a>
           <a href="#" Class="set">About</a>
+        </div> 
           
           <!-- <a href="#" class="right"><input type="button" value="login" ></a>
           <a href="#" Class="tright"><input type="submit" value="Sign up"></a> -->
@@ -342,8 +398,9 @@ input[type=submit]{
               <button class="button button1">login</button>
               <button class="button button2">Sign up</button>
           </div> -->
-               </div> 
-        
+               
+               
+                
           <script>
           function myFunction() {
             var x = document.getElementById("mySearch").size;
