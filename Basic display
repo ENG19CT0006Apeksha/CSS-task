@@ -182,8 +182,12 @@ input[type=submit]{
   /* width:55%; */
   border:1 px solid black;
   border-radius: 2px;
+  color:gray;
   /* text-align: right; */
 }
+#cart h3{
+    color:black;
+    }
 .item3 img{
 float: left;
 }
