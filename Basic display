@@ -178,18 +178,23 @@ input[type=submit]{
   width:30px;
 }
 #cart{
-  padding:20px;
-  /* width:55%; */
-  border:1 px solid black;
+  padding:28px;
+  border: 3px solid gray;
   border-radius: 2px;
-  color:gray;
-  /* text-align: right; */
+  color: gray;
+  margin-left: 12px;
+  margin-top: 12px;
+  
 }
 #cart h3{
-    color:black;
-    }
+  color: black;
+}
 .item3 img{
 float: left;
+margin-left: -28px;
+margin-top: -42px;
+
+
 }
 </style>
 </head>
@@ -260,8 +265,8 @@ float: left;
             <div id="item1"><div><span><select><option>Relevance</option></select></span>
              <span>Sort by </span> <span>per page</span><span ><input type="number" id="item1inp" value="24" min="24" max="96" step="24"></span><span>Show</span></div></div>
              <div id="cart"><div class="item3">
-              <img src="input.png" alt=""><h3>Micropipetting solutions</h3><br>
-            labxchange<br>This simulation allows user to parctice using a micropipette
+              <img src="input.png" alt="" ><h3>Micropipetting solutions</h3>labxchange<br>
+            <br>This simulation allows user to parctice using a micropipette
           </div>
         </div>
       </div>
