@@ -1,34 +1,24 @@
-
 <!DOCTYPE html>
 <html>
     <head>
         <title>Labxchange</title>
         <style>
-
-
 .header
 {
 background-image: url("background.png");
 width: 1530px;
 height:200px;
-
 }
-
 .people{
 height: 100px;
-width: 1140px;
-
-
-  
+width: 1140px;  
 }
-
 a{
   text-decoration: underline;
   text-decoration-color: goldenrod; 
   text-decoration-thickness: 4px;
 }
  a:link{
-
   position: absolute;
   top: 19px;
   left: 250px;
@@ -52,8 +42,6 @@ a{
   left: 360px;
   font-size: 150%;
   font-weight: bolder;
-
-
 }
 .top-right a.active{
   top: 19px;
@@ -70,7 +58,6 @@ a{
   font-size: 125%;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
-
 }
 .top-right a.right{
   text-decoration: none;
@@ -83,7 +70,6 @@ a{
   font-size: 125%;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
-
 }
 input[type=button]{
   background-color:transparent;
@@ -95,7 +81,6 @@ input[type=button]{
   cursor: pointer;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 input[type=submit]{
   background-color:goldenrod;
   border: none;
@@ -108,15 +93,10 @@ input[type=submit]{
   font-size: 85%;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-
 .top-right a.tright{
   text-decoration: none;
   top: 18px;
   left: 1400px;
-  
-
-
 }
 #login{
   float:right;
@@ -124,9 +104,7 @@ input[type=submit]{
   border-radius: 10px;
   padding:12px;
   background-color:transparent;
-  color:white;
-
-  
+  color:white; 
 }
 #signup{
   float:right;
@@ -143,46 +121,6 @@ input[type=submit]{
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* .button a.right{
-  top: 22px;
-  left: 1350px;
-    
-  background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 38px;
- 
-  cursor: pointer;
-}
-
-.button1 a.right {
-    
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-} */
-
-/* .button2 {
-    top: 22px;
-  left: 1320px;
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA; */
-/* }  */ 
-/* .people{
-  margin: auto auto auto 350px;
-  color: black;
-  padding-bottom: 250px;
-
-}
-.library{
-  margin: 55px auto auto 250px;
-  color:white;
-
-} */
 .Outer {
   flex:30%;
   /* width:15%; */
@@ -218,19 +156,7 @@ input[type=submit]{
 .subject,#refine{
   flex:80%;
 }
-/* #Ash{
-  margin-left: 16%;
-  color:#003E6B;
-  border-collapse: collapse;
 
-}
-#Ash td,#Ash th{
-  border-bottom: 1px solid gray;
-
-}
-.plus,.clear{
-  text-align:right;
-} */
 #item1{
   margin:7px;
   padding:4px;
@@ -248,91 +174,48 @@ input[type=submit]{
   margin:7px;
   padding:4px;
 }
-
 #item1inp{
   width:30px;
 }
 #cart{
-  padding:10px;
-  width:55%;
+  padding:20px;
+  /* width:55%; */
   border:1 px solid black;
   border-radius: 2px;
+  /* text-align: right; */
 }
 .item3 img{
 float: left;
 }
-        </style>
-    </head>
-    <body style="margin:0px;">
-     <div id="signup">Sign Up</div> <div id="login">Log in</div>
+</style>
+</head>
+  <body style="margin:0px;">
+    <div id="signup">Sign Up</div> <div id="login">Log in</div>
       <div class="header">
-        <h1 style="margin-top:0px;"><img style="height:80%; width:10%; margin:0.7% 2%;" src="labxchange-logo-trim-light.svg" alt="" width="250" height="100"></h1>
+        <h1 style="margin-top:0px;"><img style="height:80%; width:10%; margin:0.7% 2%;"            src="labxchange-logo-trim-light.svg" alt="" width="250" height="100"></h1>
         <div class="top-left">
           <a href="#library">Library</a>
           <div class="search">
             <input type="search" id="mySearch"  placeholder="Search Library, people and dicussions"size="55">
           </div>
-         
-
-        <!-- <div class="library">
-
-
-
-        </div> -->
         <div class="people">
           <h3  style="margin-left: 250px; padding-top:51px; display:inline-block; color:#fff;border-bottom: 4px solid goldenrod;
           ">Library</h3>
           <h3 style="margin-left: 40px;display:inline-block; color:#fff;">People</h3>
         </div>
-      
-      <!-- <table id="Ash">
-        <tr>
-          <th>Refine by</th>
-          <td id="clear">Clear all</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-        <tr>
-          <td>Subject Area</td>
-          <td class="plus">+</td>
-        </tr>
-      </table> -->
-    
-       </div>
-       <div class="outer-container">
-       <div class="Outer">
+      </div>
+      <div class="outer-container">
+        <div class="Outer">
+          <div class="ref">
+            <div id="refine">Refine by</div><div id="clear">Clear all</div></div>
+              <hr>
+              <div class="ref">
+              <div class="subject">
+                Subject Area 
+              </div>
+              <div class="plus">+</div></div>
+                <hr>
         <div class="ref">
-          <div id="refine">Refine by</div><div id="clear">Clear all</div></div>
-             <hr>
-             <div class="ref">
-             <div class="subject">
-               Subject Area 
-             </div>
-               <div class="plus">+</div></div>
-             <hr>
-     <div class="ref">
              <div class="subject">
                Content type 
              </div>
@@ -371,34 +254,19 @@ float: left;
           <div id="container">
             <span id="parag">Showing 9,821 results</span>
             <div id="item1"><div><span><select><option>Relevance</option></select></span>
-             <span>Sort by </span> <span>per page</span><span ><input type="number" id="item1inp" value="24" min="24" max="96" step="24"></span><span>Show</span></div>
+             <span>Sort by </span> <span>per page</span><span ><input type="number" id="item1inp" value="24" min="24" max="96" step="24"></span><span>Show</span></div></div>
              <div id="cart"><div class="item3">
-              <img src="input.png" alt="" ><h3>Micropipetting solutions</h3><br>
+              <img src="input.png" alt=""><h3>Micropipetting solutions</h3><br>
             labxchange<br>This simulation allows user to parctice using a micropipette
           </div>
         </div>
       </div>
-      </div>
-    
-
-           
-           
-        <!-- <div class="subject">
-          Subject <div class="plus">+</div>
-        </div> -->
-      <!-- </div> -->
         <div class="top-right">
           <a href="#" Class="active">English   |</a>
           <a href="#" Class="set">About</a>
         </div> 
           
-          <!-- <a href="#" class="right"><input type="button" value="login" ></a>
-          <a href="#" Class="tright"><input type="submit" value="Sign up"></a> -->
-          <!-- <div>
-              <button class="button button1">login</button>
-              <button class="button button2">Sign up</button>
-          </div> -->
-               
+          
                
                 
           <script>
